@@ -10,7 +10,7 @@ int main(void)
 
 	for (ulc = 'a'; ulc <= 'z'; ulc++)
 		putchar(ulc);
-	for (ulc = 'A', ulc <= 'Z'; ulc++)
+	for (ulc = 'A'; ulc <= 'Z'; ulc++)
 		putchar(ulc);
 	
 	putchar('\n');
