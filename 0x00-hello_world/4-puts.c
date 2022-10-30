@@ -1,9 +1,10 @@
 #include <stdio.h>
-
+/**
+ * main - Entry
+ * Return: Laways 0
+ */
 int main(void)
 {
-	char Mystr[] = "Programming is like building a multilingual puzzle" + '\n';
-
-	puts(Mystr);
+	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
 }
